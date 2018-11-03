@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/black"
+        >
+
+
+
+        <!--LOGO-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logo"
+            android:textSize="@dimen/logo_size"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            />
+
+        <!--SIGN UP-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:fontFamily="serif"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+
+        <!--INSTRUCTION-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_instruction"
+            android:fontFamily="serif"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+
+        <!--USERNAME-->
+        <EditText
+            android:id="@+id/reg_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_left"
+            android:background="@android:color/transparent"
+            android:hint="@string/username"
+            android:textColorHint="@android:color/tertiary_text_dark"
+            android:drawableStart="@drawable/ic_person_gray_24dp"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+        <!--EMAIL-->
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_left"
+            android:background="@android:color/transparent"
+            android:hint="@string/email"
+            android:textColorHint="@android:color/tertiary_text_dark"
+            android:drawableStart="@android:drawable/ic_dialog_email"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:inputType="textEmailAddress"
+            />
+
+        <!--PASSWORD-->
+        <EditText
+            android:id="@+id/reg_psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_left"
+            android:background="@android:color/transparent"
+            android:hint="@string/psw"
+            android:textColorHint="@android:color/tertiary_text_dark"
+            android:drawableStart="@drawable/ic_lock_gray_24dp"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:inputType="textPassword"
+            />
+
+            <!--REGISTER BUTTON-->
+            <Button
+                android:id="@+id/reg_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_margin_top"
+                android:text="@string/register_btn"
+                />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.constraint.ConstraintLayout>

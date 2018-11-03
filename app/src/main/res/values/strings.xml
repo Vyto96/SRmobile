@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SRmobile</string>
+    <string name="logo">SR</string>
+    <string name="sub_logo">Sales Reporter
+        Companion App</string>
+    <string name="email">Email</string>
+    <string name="username">Username </string>
+    <string name="usermail">Email / Username </string>
+    <string name="psw">Password</string>
+    <string name="login_btn">LOGIN</string>
+
+    <string name="register_btn">SIGN UP</string>
+    <string name="register_instruction">Fill in the fields below to register</string>
+    <string name="register">SIGN UP</string>
+
+    <string name="title_activity_main">Main</string>
+
+    <string name="add_store">ADD STORE</string>
+    <string name="add_store_instruction">Select a Ecommerce, select a name for it and click on ADD to accept 3rd parthy condition</string>
+    <string name="add_store_btn">ADD STORE</string>
+    <string name="store_name">Store Name</string>
+</resources>

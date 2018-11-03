@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    >
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/black"
+        >
+
+
+
+        <!--LOGO-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logo"
+            android:textSize="@dimen/logo_size"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            />
+
+        <!--SUB LOGO-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_logo"
+            android:fontFamily="serif"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+        <!--USERNAME / EMAIL-->
+        <EditText
+            android:id="@+id/usermail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_left"
+            android:background="@android:color/transparent"
+            android:hint="@string/usermail"
+            android:textColorHint="@android:color/tertiary_text_dark"
+            android:drawableStart="@drawable/ic_person_gray_24dp"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+        <!--PASSWORD-->
+        <EditText
+            android:id="@+id/psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_left"
+            android:background="@android:color/transparent"
+            android:hint="@string/psw"
+            android:textColorHint="@android:color/tertiary_text_dark"
+            android:drawableStart="@drawable/ic_lock_gray_24dp"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:inputType="textPassword"
+            />
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/input_size"
+            android:gravity="center_horizontal"
+            >
+
+                <!--LOGIN BUTTON -->
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_btn"
+
+                />
+
+                <!--REGISTER BUTTON-->
+                <Button
+                    android:id="@+id/register_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_btn"
+                />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.constraint.ConstraintLayout>

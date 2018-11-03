@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStore">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/black"
+        >
+
+        <!--LOGO-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logo"
+            android:textSize="@dimen/logo_size"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            />
+
+        <!--ADD STORE-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_store"
+            android:fontFamily="serif"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+
+        <!--INSTRUCTION-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_store_instruction"
+            android:fontFamily="serif"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:padding="5dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_store"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:minHeight="@dimen/sublogo_size"
+            android:background="@color/grey"
+            android:spinnerMode="dialog"
+            />
+
+        <!--USERNAME-->
+        <EditText
+            android:id="@+id/add_store_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:paddingLeft="@dimen/login_margin_left"
+            android:background="@android:color/transparent"
+            android:hint="@string/store_name"
+            android:textColorHint="@android:color/tertiary_text_dark"
+            android:drawableStart="@android:drawable/ic_menu_myplaces"
+            android:textColor="@android:color/tertiary_text_dark"
+            />
+
+        <!--ADD STORE BUTTON-->
+        <Button
+            android:id="@+id/add_store_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_margin_top"
+            android:text="@string/add_store_btn"
+            />
+
+
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
