@@ -19,4 +19,6 @@
     <string name="add_store_instruction">Select a Ecommerce, select a name for it and click on ADD to accept 3rd parthy condition</string>
     <string name="add_store_btn">ADD STORE</string>
     <string name="store_name">Store Name</string>
+
+    <string name="get_report">GET YOUR REPORT</string>
 </resources>

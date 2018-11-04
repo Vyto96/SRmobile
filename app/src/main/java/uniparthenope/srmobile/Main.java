@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -46,7 +47,7 @@ public class Main extends AppCompatActivity {
     private Collection<String> stores;
 
 
-    public void showStore(){
+    private void showStore(){
 
 //        ListView lv=(ListView) findViewById(R.id.listview_function);
 //        listviewAdapter = new ArrayAdapter<String>(this, R.layout.row);
@@ -137,8 +138,13 @@ public class Main extends AppCompatActivity {
         MySingletonQueue.getInstance(this.getApplicationContext()).addToRequestQueue(jr);
 
 
+        Button report_btn = (Button) findViewById( R.id.get_report_btn );
+        report_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-
+            }
+        });
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {
