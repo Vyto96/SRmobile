@@ -20,5 +20,15 @@
     <string name="add_store_btn">ADD STORE</string>
     <string name="store_name">Store Name</string>
 
-    <string name="get_report">GET YOUR REPORT</string>
+    <string name="get_report">GET REPORT!</string>
+    <string name="report_settings">SET REPORT DATE</string>
+    <string name="report_start_date">START DATE</string>
+    <string name="report_end_date">END DATE</string>
+
+    <string name="set_start_date_report">SET START DATE</string>
+    <string name="set_end_date_report">SET END DATE</string>
+
+    <string name="tot_views">TOTAL VIEWS</string>
+    <string name="transactions">TRANSACTIONS</string>
+    <string name="scr">SALES CONVERSION RATE</string>
 </resources>
